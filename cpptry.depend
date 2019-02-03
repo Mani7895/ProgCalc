@@ -1,0 +1,100 @@
+# depslib dependency file v1.0
+1543587941 source:c:\users\manika\desktop\c\cpptry\addition.cpp
+	"AProgCalc.h"
+	"addition.h"
+
+1543587942 c:\users\manika\desktop\c\cpptry\aprogcalc.h
+	<vector>
+	<unordered_map>
+
+1543538427 c:\users\manika\desktop\c\cpptry\addition.h
+	"Instruction.h"
+
+1543588373 c:\users\manika\desktop\c\cpptry\instruction.h
+	<string>
+	<iostream>
+
+1543588560 source:c:\users\manika\desktop\c\cpptry\aprogcalc.cpp
+	<sstream>
+	<iostream>
+	"Command.h"
+	"AProgCalc.h"
+
+1543588717 c:\users\manika\desktop\c\cpptry\command.h
+	"addition.h"
+	"subtraction.h"
+	"multiplication.h"
+	"power.h"
+	"division.h"
+	"equal.h"
+	"jump.h"
+	"halted.h"
+
+1543459607 c:\users\manika\desktop\c\cpptry\subtraction.h
+	"Instruction.h"
+
+1543459611 c:\users\manika\desktop\c\cpptry\multiplication.h
+	"Instruction.h"
+
+1543459626 c:\users\manika\desktop\c\cpptry\power.h
+	"Instruction.h"
+
+1543459635 c:\users\manika\desktop\c\cpptry\division.h
+	"Instruction.h"
+
+1543478057 c:\users\manika\desktop\c\cpptry\equal.h
+	"Instruction.h"
+
+1543483973 c:\users\manika\desktop\c\cpptry\jump.h
+	"Instruction.h"
+
+1543588052 source:c:\users\manika\desktop\c\cpptry\division.cpp
+	"AProgCalc.h"
+	"division.h"
+
+1543587942 source:c:\users\manika\desktop\c\cpptry\equal.cpp
+	"AProgCalc.h"
+	"equal.h"
+	<iostream>
+
+1543629069 source:c:\users\manika\desktop\c\cpptry\interface.cpp
+	<fstream>
+	<iostream>
+	"AProgCalc.h"
+	"Interface.h"
+	"Instruction.h"
+
+1543472736 c:\users\manika\desktop\c\cpptry\interface.h
+	"AProgCalc.h"
+
+1543587942 source:c:\users\manika\desktop\c\cpptry\jump.cpp
+	"AProgCalc.h"
+	"jump.h"
+
+1543549554 source:c:\users\manika\desktop\c\cpptry\main.cpp
+	<iostream>
+	"Command.h"
+	"Interface.h"
+	"AProgCalc.h"
+
+1543545276 source:c:\users\manika\desktop\c\cpptry\multiplication.cpp
+	"AProgCalc.h"
+	"multiplication.h"
+
+1543545276 source:c:\users\manika\desktop\c\cpptry\subtraction.cpp
+	"AProgCalc.h"
+	"subtraction.h"
+
+1543587942 source:c:\users\manika\desktop\c\cpptry\power.cpp
+	"AProgCalc.h"
+	"power.h"
+	<cmath>
+	<iostream>
+
+1543588390 source:c:\users\manika\desktop\c\cpptry\halted.cpp
+	"AProgCalc.h"
+	"halted.h"
+
+1543588373 c:\users\manika\desktop\c\cpptry\halted.h
+	"Instruction.h"
+

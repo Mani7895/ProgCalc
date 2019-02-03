@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cpptry" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/cpptry" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/cpptry" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="AProgCalc.cpp" />
+		<Unit filename="AProgCalc.h" />
+		<Unit filename="Command.h" />
+		<Unit filename="Instruction.h" />
+		<Unit filename="Interface.cpp" />
+		<Unit filename="Interface.h" />
+		<Unit filename="addition.cpp" />
+		<Unit filename="addition.h" />
+		<Unit filename="division.cpp" />
+		<Unit filename="division.h" />
+		<Unit filename="equal.cpp" />
+		<Unit filename="equal.h" />
+		<Unit filename="halted.cpp" />
+		<Unit filename="halted.h" />
+		<Unit filename="jump.cpp" />
+		<Unit filename="jump.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="multiplication.cpp" />
+		<Unit filename="multiplication.h" />
+		<Unit filename="power.cpp" />
+		<Unit filename="power.h" />
+		<Unit filename="subtraction.cpp" />
+		<Unit filename="subtraction.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
